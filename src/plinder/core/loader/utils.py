@@ -8,7 +8,7 @@ from plinder.core.utils.log import setup_logger
 
 LOG = setup_logger(__name__)
 
-def download_apo_structures(targets: list[str]) -> None:
+def download_apo_pred_structures(targets: list[str]) -> None:
     from plinder.data.pipeline.io import rsync_rcsb
 
     cfg = get_config()

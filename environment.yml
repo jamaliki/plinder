@@ -9,9 +9,8 @@ channels:
   - defaults
   - bioconda
 dependencies:
-  - python=3.9
   - reduce
-  - aivant::openstructure=2.8.0
+    #- aivant::openstructure
   - boost=1.82
   - mmseqs2
   - foldseek
